@@ -4,7 +4,7 @@ project(OpenGl2)
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories("include/")
-include_directories("Dependencies/glfw-3.3.4/include")
+include_directories("dependencies/glfw-3.3.6/include")
 include_directories("/usr/include/SOIL")
 
 find_package(OpenGL REQUIRED)
